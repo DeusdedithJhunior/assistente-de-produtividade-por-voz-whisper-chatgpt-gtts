@@ -1,8 +1,8 @@
-# Assistente de Produtividade por Voz — Colab (Whisper + ChatGPT + gTTS)
+# Assistente de Produtividade por Voz - (Whisper + ChatGPT + gTTS)
 
 ## 📌 Introdução
 Este projeto foi desenvolvido como parte de um desafio de aprendizagem ativa do **bootcamp Bradesco – GenAI & Dados (DIO)**.  
-Ele roda **100% no Google Colab** — sem instalar nada no seu computador. O notebook captura voz no navegador, transcreve com **Whisper local (GPU do Colab)**, interpreta com **NLU resiliente** (tenta ChatGPT; se sem cota, usa **fallback offline**), e fala a resposta com **gTTS**.
+Foi desenvolvido diretamente no Google Colab para evitar configurações locais de ambiente e aproveitar a GPU online do Colab, o que simplifica o uso do Whisper e acelera o processamento de áudio. O notebook captura voz no navegador, transcreve com **Whisper local (GPU do Colab)**, interpreta com **NLU resiliente** (tenta ChatGPT; se sem cota, usa **fallback offline**), e fala a resposta com **gTTS**.
 
 ---
 
